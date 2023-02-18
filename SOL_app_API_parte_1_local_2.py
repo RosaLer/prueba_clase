@@ -57,7 +57,7 @@ def return_predict():
 
 @app.route('/', methods=['GET'])
 def return_barra():
-    texto = "Hola, soy tu predictor de ventas. (Y menos mal que funciono...)"
+    texto = "Hola, soy tu predictor de ventas. (Y menos mal que funciono...) desde el repo"
     return texto
 
 #app.run(port=4000)
